@@ -491,7 +491,7 @@ fun CompactTrackRow(
  * font size rather than a fixed dp, so the two keep their proportion under the
  * system font scale.
  */
- @Composable
+@Composable
 private fun HomeTitle(title: String, modifier: Modifier = Modifier) {
     Column(modifier = modifier.padding(horizontal = PAGE_GUTTER, vertical = 8.dp)) {
         Text(
